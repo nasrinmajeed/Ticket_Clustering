@@ -1,0 +1,635 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#Component_1_1{
+top: 145px;
+left: 121px;
+width: 24px;
+height: 18px;
+opacity: 1;
+margin: 10px;
+}
+#Rectangle_3{
+border-radius: 10px;
+top: 145px;
+left: 121px;
+width: 24px;
+height: 3px;
+/* UI Properties */
+background: #E3E4E4 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#Rectangle_6{
+border-radius: 10px;
+top: 153px;
+left: 121px;
+width: 24px;
+height: 3px;
+/* UI Properties */
+background: #E3E4E4 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#Rectangle_7{
+top: 160px;
+left: 121px;
+width: 16px;
+height: 3px;
+/* UI Properties */
+background: #E3E4E4 0% 0% no-repeat padding-box;
+border-radius: 10px;
+opacity: 1;
+}
+#ust-white-logo{
+top: 139px;
+left: 174px;
+width: 45px;
+height: 38px;
+/* UI Properties */
+background: #0000 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+#Search{
+  color: black;
+  /* width: 288px; */
+  width: 189px;
+  height: 51px;
+  margin-top: 50px;
+  margin-right: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+#addPro{
+/* padding-top: 25px; */
+height: 10%;
+/* UI Properties */
+opacity: 1;
+}
+#buttonNewPro{
+/* width: 166px; */
+width: 140px;
+height: 49px;
+margin-top: 50px;
+box-shadow: 2px 18px 20px #C8CACF;
+border-radius: 2px;
+font-size: 15px;
+text-align: left;
+margin-left: 10px;
+opacity: 1;
+font-family: 'Source Sans Pro', sans-serif;
+}
+#iconNewPro{
+width: 21px;
+height: 21px;
+margin-right: 8px;
+}
+.list-pro{
+  width: 126px;
+  height: 28px;
+  /* margin: 12px 399px 20px 73px; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  border-bottom: 2.5px solid #000;
+  padding-bottom: 33px;
+}
+.list-pro-new{
+  margin-left: 43px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 71px;
+  height: 23px;
+  /* margin: 12px 399px 20px 73px; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+  border-bottom: 2.5px solid #000;
+  padding-bottom: 33px;
+}
+
+.list-pro-new1{
+  width: 191px;
+  height: 33px;
+  /* margin: 12px 399px 20px 73px; */
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 19px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f8e4e4;
+  color: rgb(119, 71, 71);
+  border-bottom: 2.5px solid #000;
+  padding-bottom: 30px;
+
+/* padding-bottom: 33px; */
+
+}
+#view{
+  width: 24px;
+  height: 16px;
+  margin: 10px;
+  padding-left: 5px;
+  padding-right: 2px;
+}
+/* .tableColor.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: #f9f9fa;
+} */
+
+
+
+.tableColor{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.rectangle {
+  display: inline-block;
+  width: 98px;
+  height: 3.5px;
+  background: #9d9993;
+}
+.rectangle1{
+  display: inline-block;
+  width: 98px;
+  height: 3.5px;
+  background: #9d9993;
+}
+/* #datacollect{
+  width: 39px;
+  height: 39px;
+  padding: 9.6px 8.6px 9.1px 9.7px;
+} */
+.col2{
+  width: 480px;
+  height: 72px;
+  margin: 50px 15px 13px;
+  margin-left: 25%;
+  margin-top: 23px;
+}
+
+.col3{
+  margin-left: 5%;
+  width: 510px;
+  height: 76px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+#tick-svgrepo-com{
+  width: 30px;
+  height: 30px;
+  padding: 5.9px 4.1px 5.2px;
+  margin-left: 3px;
+}
+.col_stepsname{
+  display: flex;
+  width: 510px;
+  margin-top: -40px;
+  margin-left: 320px;
+}
+.stepsname{
+  display: flex;
+  color: #656363;
+  justify-content: flex-start;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.79em;
+  font-weight: 600;
+  margin-left: -29px;
+}
+.container-fluid{
+  padding: 0 3%;
+}
+.list-pro-col{
+  width: 6px;
+  margin-right: 0%;
+}
+.list_all_projects{
+  display: flex;
+  justify-content: flex-start;
+}
+.projects-column1{
+  margin-left: -8px;
+  border: 1px solid black;
+  height: 400px;
+
+}
+.datacollect-text{
+  margin-left: 1.6%;
+}
+/* .me-to{
+  src: url('C:/Users/207055/Documents/ticketclustering/src/icons/search.svg');
+} */
+/* .tr-actions{
+  display: contents;
+} */
+.actions{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#basic-addon1{
+  height: 51px;
+  
+}
+.search_bar{
+  padding-top: 50px;
+}
+.search_icon{
+  /* margin-top: auto;
+  background-color: #ffff;
+  border-right:transparent; */
+  margin-left: 16px;
+  margin-top: -77.5px;
+}
+.me-2{
+  padding: 7px 54px;
+  height: 49px;
+  border-radius: 15px;
+  width: 245px;
+  background-color: #f8f8fa;
+  
+}
+.me-2::placeholder{
+  color: #282222;
+}
+.pagination >li>a{
+  background-color: #f9f9f9;
+  color: #8e8e8e;
+}
+.pagination>li>:hover{
+  color: #000;
+  background-color: rgb(158, 157, 157);
+  /* border-radius: 20px;
+  padding: 20px;
+  border: 1px solid; */
+}
+
+.pagination-row{
+  display: flex;
+}
+.pagination{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.tablehead{
+  color: #656363;
+  font-weight: 600;
+}
+.fieldtop{
+  margin-left: -10px;
+  width: 520px
+}
+.table2head{
+  height: 55px;
+  /* font-weight: 600; */
+}
+ /* .userimg-row{
+  display: flex;
+} */
+.userimg{
+  width: 40px;
+  margin-left: -12px;
+} 
+.col2-svg{
+  width: 33px;
+}
+.table1.actions,svg{
+  width:"24px";
+  height:"16px";
+}
+@media screen and (max-width: 426px){
+  .container-fluid{
+    width: 90vw;
+  }
+  .col2{
+    margin-left: -15px;
+    width: 100vw;
+  }
+  .col2-svg{
+    width: 41px;
+    height: 38px;
+  }
+  #addPro{
+    width: 430px;
+    margin-left: 20px;
+    padding-top: 0%;
+  }
+  .rectangle{
+    width: 60px;
+  }
+  .rectangle1{
+    width: 60px;
+  }
+  .stepsname{
+    width: 430px;
+    font-size: 0.75em;
+    margin-left: -36px;
+  }
+  .search_bar{
+    padding-top: 15px;
+  }
+  #buttonNewPro{
+    margin-top: 15px;
+    width: 138px;
+    margin-right: 0px;
+  }
+  .me-2{
+    height: 40px;
+    width: 200px;
+  }
+  .col3{
+    margin-left: -30px;
+  }
+  .d-flex{
+    width: 430px;
+    margin-top: 8px;
+  }
+  .search_icon{
+    margin-top: -68px;
+    width: 18px;
+  }
+  .tableColor{
+    width: 425px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.75em;
+    margin-left: -32px;
+  }
+  .table1{
+    justify-content: flex-start;
+    width: 340px;
+  }
+  .tablehead{
+    width: 430px;
+
+  }
+  #view{
+    width: 18px;
+    height: 19px;
+    margin: 3px;
+  }
+  .actions{
+    display: flex;
+    justify-content: center;
+    /* width: 150px; */
+  }
+  .actions,svg{
+    width: 120px;
+    height: 54px;
+  }
+  #dropdown-button-drop:active{
+    background-color: black;
+  }
+  .avatar-row{
+    width: 160px;
+    height: 15px;
+  }
+  .userimg{
+    width: 36px;
+  }
+
+}
+.table2{
+  /* margin-top: 10px; */
+  height:400px;
+  /* width:240px; */
+  overflow-y: auto;
+  border: 1px solid black;
+  /* margin-left: 8px;  */
+  /* height: 450px; */
+  /* height: 450px; */
+  /* max-width: 430px; */
+}
+/* .table-row>tr>td{
+  padding: -15px;
+} */
+/* .row-3{
+  height: 400px;
+} */
+.table2cell{
+  font-size: 0.75rem;
+}
+
+/* h5 {
+  position: relative;
+  margin-left: -10px;
+}
+h5::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 15%;
+  margin-left: 10px;
+  margin-bottom: 4px; /* add some space here */
+  /* background-color: black; /* or any other color you want */
+/* } */ */ */
+
+
+.tabletable .tableheadd .tableRow .tableCell{
+  font-size: 0.5rem;
+}
+.datacleaning {
+  /* Layout Properties */
+  padding-top: 50px;
+  padding-left: 45px;
+  width: 229px;
+  height: 35px;
+  size: 24px;
+  /* UI Properties */
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-underline-offset: 12px;
+  font: Source Sans Pro;
+  letter-spacing: 0px;
+  color: #656363;
+  opacity: 1;
+}
+
+.mar{
+  margin-right: "-9px";
+
+  }
+.grid{
+  margin-top: "-21px";
+}
+.alert{
+  height: "0px";
+}
+.buttonpadding{
+  padding-top: 0px;
+  padding-right: 1px;
+  padding-left: 1120px;
+
+}
+/* .data-clean-row{
+  display: block;
+} */
+.data-clean-col{
+  padding-top: 30px;
+  /* display: block;
+  justify-content: center;
+  align-items: flex-end; */ 
+}
+.col_stepsname1{
+  display: flex;
+  width: 550px;
+}
+.stepsname1{
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.89rem;
+  font-weight: 600;
+  margin-left: -22px;
+}
+.rectangle1-green{
+  display: inline-block;
+  width: 98px;
+  height: 3.5px;
+  background: #2fac26;
+}
+.dropdown{
+  text-decoration-color: black;
+  font: Source Sans Pro;
+  margin-left: 25px;
+  width: 150px;
+}
+.stackwidth{
+  width: 1000px;
+  height: 500px
+}
+
+.cdpro{
+  color: #656363;
+}
+#tick-svgrepo-com0 {
+  width: 30px;
+  height: 30px;
+  padding: 5.9px 4.1px 5.2px;
+  margin-left: 125px;
+}
+#tick-svgrepo-com2 {
+  width: 205px;
+  height: 30px;
+  padding: 5.9px 4.1px 5.2px;
+  margin-left: -85px;
+}
+.rectangle2 {
+  display: inline-block;
+  width: 90px;
+  height: 3.6px;
+  background: #9d9993;
+}
+.tick1 {
+  margin-left: 0px;
+}
+
+.footer{
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  color: #C8CACF;
+  /* height: 50px; */
+}
+
+.rectangle1 {
+  display: inline-block;
+  width: 90px;
+  height: 3.6px;
+  background: #9d9993;
+}
+
+.rectangle2 {
+  display: inline-block;
+  width: 90px;
+  height: 3.6px;
+  background: #2fac26;
+}
+
+.col2 {
+  width: 480px;
+  height: 72px;
+  margin: 50px 15px 13px;
+  margin-left: 28%;
+  margin-top: 30px;
+
+}
+
+.tablerow td{
+  padding:2px;
+}
+
+.tick1 {
+  margin-left: -155px;
+}
+
+
+.textfield {
+  background-color: #edf0f1;
+}
+
+
+.pivot{
+  overflow: auto;
+}
+.box{
+  height: 100vh;
+}
+.tree{
+  margin-left: -37px; 
+  margin-top: -15px;
+}
+.gridsize{
+  min-height: 60px;
+}
